@@ -6,7 +6,9 @@ import os
 
 st.set_page_config(page_title="💳 Fraud Detector Pro", layout="centered", page_icon="🗫️")
 
+
 model = joblib.load("fraud_detection_pipline_main_main2_33_pipeline_xgb1.pkl")
+
 
 # ========= Enhanced CSS with animated fancy background =========
 st.markdown("""
