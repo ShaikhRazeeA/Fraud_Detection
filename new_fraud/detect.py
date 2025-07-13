@@ -169,7 +169,7 @@ if "viewing_section" not in st.session_state:
 if "current_slide_index" not in st.session_state:
     st.session_state.current_slide_index = 0
 
-powerbi_pdf_path = r"C:\Users\ADMIN\OneDrive\Desktop\my_project2\Fraud_Detection-Razee Shaikh_PoweBI.pdf"
+powerbi_pdf_path = "Fraud_Detection-Razee Shaikh_PoweBI.pdf"
 
 def display_pdf(file_path):
     try:
